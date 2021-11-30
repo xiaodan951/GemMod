@@ -1,4 +1,4 @@
-package net.xiaodan951.jewemod;
+package net.xiaodan951.gemmod;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -14,7 +14,8 @@ import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.xiaodan951.jewemod.item.ModItems;
+import net.xiaodan951.gemmod.block.ModBlocks;
+import net.xiaodan951.gemmod.item.ModItems;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -33,6 +34,7 @@ public class GemMod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading

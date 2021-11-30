@@ -1,12 +1,11 @@
-package net.xiaodan951.jewemod.item;
+package net.xiaodan951.gemmod.item;
 
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import net.xiaodan951.jewemod.GemMod;
+import net.xiaodan951.gemmod.GemMod;
 
 public class ModItems
 {

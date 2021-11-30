@@ -1,4 +1,4 @@
-package net.xiaodan951.jewemod.item;
+package net.xiaodan951.gemmod.item;
 
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
