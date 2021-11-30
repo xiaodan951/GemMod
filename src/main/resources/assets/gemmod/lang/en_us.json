@@ -1,4 +1,9 @@
 {
   "item.jewemod.white_jade": "White Jade",
-  "item.jewemod.topaz": "Topaz"
+  "item.jewemod.topaz": "Topaz",
+
+
+
+  "itemGroup.gemModTab": "Gen Mod"
+
 }
