@@ -23,7 +23,7 @@ import org.apache.logging.log4j.Logger;
 public class GemMod
 {
 
-    public static final String MOD_ID = "jewemod";
+    public static final String MOD_ID = "gemmod";
 
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
