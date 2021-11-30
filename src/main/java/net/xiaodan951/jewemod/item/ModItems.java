@@ -14,9 +14,8 @@ public class ModItems
     public static final DeferredRegister <Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, JeweMod.MOD_ID);
 
-    public static final RegistryObject<Item> WHITE_JADE = ITEMS.register("white_jade",
-            () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
-
+    public static final RegistryObject<Item> WHITE_JADE = ITEMS.register("white_jade", () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+    public static final RegistryObject<Item> TOPAZ = ITEMS.register("topaz", () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
 
 
     public static void register(IEventBus eventBus)
