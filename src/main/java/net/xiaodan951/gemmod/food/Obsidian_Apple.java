@@ -6,9 +6,10 @@ import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 import net.xiaodan951.gemmod.group.ModGroup;
 
-public class Obsidian_Apple extends Item {
+public class Obsidian_Apple extends Item
+{
     public static final Food FOOD = (new Food.Builder())
-            .effect(() -> new EffectInstance(Effects.HUNGER, 20, 1), 1)
+            .effect(() -> new EffectInstance(Effects.HUNGER, 5 * 20, 9), 1)
             .build();
 
     public Obsidian_Apple() {

@@ -10,7 +10,9 @@ public class Gemmod {
     public Gemmod ()
     {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
         ItemRegistry.ITEMS.register(eventBus);
+
         net.xiaodan951.gemmod.food.ItemRegistry.ITEMS.register(eventBus);
     }
 
