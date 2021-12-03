@@ -14,6 +14,7 @@ public class Gemmod {
         ItemRegistry.ITEMS.register(eventBus);
 
         net.xiaodan951.gemmod.food.ItemRegistry.ITEMS.register(eventBus);
+        net.xiaodan951.gemmod.weapons.ItemRegistry.ITEMS.register(eventBus);
     }
 
 

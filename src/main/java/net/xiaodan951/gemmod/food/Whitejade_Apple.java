@@ -11,7 +11,7 @@ public class Whitejade_Apple extends Item
     public static final Food FOOD = (new Food.Builder())
             .saturation(10)
             .hunger(10)
-            .effect(() -> new EffectInstance(Effects.REGENERATION, 5 * 20, 3), 1)
+            .effect(() -> new EffectInstance(Effects.REGENERATION, 5 * 20, 4), 1)
             .build();
 
     public Whitejade_Apple() {
