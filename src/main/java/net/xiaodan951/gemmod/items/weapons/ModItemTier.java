@@ -1,9 +1,9 @@
-package net.xiaodan951.gemmod.weapons;
+package net.xiaodan951.gemmod.items.weapons;
 
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.LazyValue;
-import net.xiaodan951.gemmod.item.ItemRegistry;
+import net.xiaodan951.gemmod.items.ItemRegistry;
 
 import java.util.function.Supplier;
 

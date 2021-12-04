@@ -1,4 +1,4 @@
-package net.xiaodan951.gemmod.food;
+package net.xiaodan951.gemmod.items.food;
 
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
@@ -12,6 +12,7 @@ public class Whitejade_Apple extends Item
             .saturation(10)
             .hunger(10)
             .effect(() -> new EffectInstance(Effects.REGENERATION, 5 * 20, 4), 1)
+            .setAlwaysEdible()
             .build();
 
     public Whitejade_Apple() {

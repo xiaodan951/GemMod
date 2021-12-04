@@ -1,4 +1,4 @@
-package net.xiaodan951.gemmod.food;
+package net.xiaodan951.gemmod.items.food;
 
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
@@ -13,6 +13,7 @@ public class Obsidian_Apple extends Item
             .saturation(5)
             .effect(() -> new EffectInstance(Effects.HUNGER, 5 * 20, 9), 0.3f)
             .effect(() ->new EffectInstance(Effects.RESISTANCE, 60*20,3), 1)
+            .setAlwaysEdible()
             .build();
 
     public Obsidian_Apple() {

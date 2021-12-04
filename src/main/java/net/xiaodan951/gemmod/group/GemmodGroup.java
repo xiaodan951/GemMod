@@ -2,7 +2,7 @@ package net.xiaodan951.gemmod.group;
 
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.xiaodan951.gemmod.item.ItemRegistry;
+import net.xiaodan951.gemmod.items.ItemRegistry;
 
 public class GemmodGroup extends ItemGroup {
     public GemmodGroup() {

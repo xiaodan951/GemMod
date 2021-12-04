@@ -1,11 +1,11 @@
-package net.xiaodan951.gemmod.item;
+package net.xiaodan951.gemmod.items;
 
 import net.minecraft.item.Item;
 import net.xiaodan951.gemmod.group.ModGroup;
 
-public class Obsidian_Ingot extends Item
+public class Whitejade extends Item
 {
-    public Obsidian_Ingot () {
+    public Whitejade() {
         super(new Properties().group(ModGroup.GemmodGroup));
     }
 }
