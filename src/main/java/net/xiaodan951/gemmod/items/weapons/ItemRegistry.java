@@ -12,4 +12,5 @@ public class ItemRegistry
 
     public static final RegistryObject<Item> Obsidian_Sword = ITEMS.register("obsidian_sword", Obsidian_Sword::new);
     public static final RegistryObject<Item> Whitejade_Sword = ITEMS.register("whitejade_sword", Whitejade_Sword::new);
+    public static final RegistryObject<Item> Topaz_Sword = ITEMS.register("topaz_sword", Topaz_Sword::new);
 }
