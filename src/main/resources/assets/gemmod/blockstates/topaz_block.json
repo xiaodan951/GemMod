@@ -1,6 +1,6 @@
 {
   "variants":
   {
-    "": {"model":"gemmod:block/obsidian_block"}
+    "": {"model":"gemmod:block/topaz_block"}
   }
 }

@@ -13,4 +13,5 @@ public class ItemRegistry {
 
     public static final RegistryObject<Item> Obsidian_Apple = ITEMS.register("obsidian_apple", Obsidian_Apple::new);
     public static final RegistryObject<Item> Whitejade_Apple = ITEMS.register("whitejade_apple", Whitejade_Apple::new);
+    public static final RegistryObject<Item> Topaz_Apple =ITEMS.register("topaz_apple", Topaz_Apple::new);
 }
