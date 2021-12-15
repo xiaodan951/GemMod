@@ -4,9 +4,9 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.xiaodan951.gemmod.items.ItemRegistry;
 
-public class GemmodGroup extends ItemGroup {
-    public GemmodGroup() {
-        super("gemmod_group");
+public class GemmodItem extends ItemGroup {
+    public GemmodItem() {
+        super("gemmod_item");
     }
 
     @Override

@@ -17,6 +17,6 @@ public class Obsidian_Apple extends Item
             .build();
 
     public Obsidian_Apple() {
-        super(new Properties().food(FOOD).group(ModGroup.GemmodGroup));
+        super(new Properties().food(FOOD).group(ModGroup.GemmodFood));
     }
 }

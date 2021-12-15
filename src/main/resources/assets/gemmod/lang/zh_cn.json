@@ -14,5 +14,8 @@
   "block.gemmod.obsidian_block": "黑曜石块",
   "block.gemmod.topaz_block": "黄玉块",
 
-  "itemGroup.gemmod_group": "宝石模组"
+  "itemGroup.gemmod_item": "宝石模组:物品",
+  "itemGroup.gemmod_food": "宝石模组:食物",
+  "itemGroup.gemmod_weapons": "宝石模组:武器",
+  "itemGroup.gemmod_block": "宝石模组:方块"
 }

@@ -16,6 +16,6 @@ public class Whitejade_Apple extends Item
             .build();
 
     public Whitejade_Apple() {
-        super(new Properties().food(FOOD).group(ModGroup.GemmodGroup));
+        super(new Properties().food(FOOD).group(ModGroup.GemmodFood));
     }
 }

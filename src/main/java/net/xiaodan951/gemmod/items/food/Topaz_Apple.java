@@ -16,6 +16,6 @@ public class Topaz_Apple extends Item
             .build();
 
     public Topaz_Apple() {
-        super(new Properties().food(FOOD).group(ModGroup.GemmodGroup));
+        super(new Properties().food(FOOD).group(ModGroup.GemmodFood));
     }
 }

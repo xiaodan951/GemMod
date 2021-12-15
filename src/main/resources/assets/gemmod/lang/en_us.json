@@ -14,5 +14,8 @@
   "block.gemmod.obsidian_block": "Obsidian Block",
   "block.gemmod.topaz_block": "Topaz Block",
 
-  "itemGroup.gemmod_group": "Gemmod"
+  "itemGroup.gemmod_item": "Gemmod Item",
+  "itemGroup.gemmod_food": "Gemmod Food",
+  "itemGroup.gemmod_weapons": "Gemmod Weapons",
+  "itemGroup.gemmod_block": "Gemmod Block"
 }

@@ -6,6 +6,6 @@ import net.xiaodan951.gemmod.group.ModGroup;
 public class Whitejade extends Item
 {
     public Whitejade() {
-        super(new Properties().group(ModGroup.GemmodGroup));
+        super(new Properties().group(ModGroup.GemmodItem));
     }
 }
