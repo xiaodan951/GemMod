@@ -1,4 +1,4 @@
-package net.xiaodan951.gemmod.items.food;
+package net.xiaodan951.gemmod.item.foods;
 
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;

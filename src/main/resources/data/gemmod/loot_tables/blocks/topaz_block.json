@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "gemmod:obsidian_block"
+          "name": "gemmod:topaz_block"
         }
       ],
       "conditions": [

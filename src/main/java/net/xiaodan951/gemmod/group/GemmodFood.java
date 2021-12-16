@@ -2,7 +2,7 @@ package net.xiaodan951.gemmod.group;
 
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.xiaodan951.gemmod.items.food.ItemRegistry;
+import net.xiaodan951.gemmod.item.foods.ItemRegistry;
 
 public class GemmodFood extends ItemGroup
 {

@@ -1,9 +1,9 @@
-package net.xiaodan951.gemmod.items.weapons;
+package net.xiaodan951.gemmod.item.weapons;
 
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.LazyValue;
-import net.xiaodan951.gemmod.items.ItemRegistry;
+import net.xiaodan951.gemmod.item.ItemRegistry;
 
 import java.util.function.Supplier;
 
@@ -21,8 +21,8 @@ public enum ModItemTier implements IItemTier
     });
 
 
-    private final int harvestLevel;
     private final int maxUses;
+    private final int harvestLevel;
     private final float efficiency;
     private final float attackDamage;
     private final int enchantability;

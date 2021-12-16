@@ -1,4 +1,4 @@
-package net.xiaodan951.gemmod.items.weapons;
+package net.xiaodan951.gemmod.item.weapons;
 
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
