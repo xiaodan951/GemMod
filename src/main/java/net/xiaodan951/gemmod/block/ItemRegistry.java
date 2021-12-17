@@ -14,5 +14,5 @@ public class ItemRegistry
 
     public static final RegistryObject<Item> Obsidian_Block = ITEMS.register("obsidian_block", () -> new BlockItem(BlockRegistry.Obsidian_Block.get(), new Item.Properties().group(ModGroup.GemmodBlock)));
     public static final RegistryObject<Item> Topaz_Block = ITEMS.register("topaz_block", ()-> new BlockItem(BlockRegistry.Topaz_Block.get(), new Item.Properties().group(ModGroup.GemmodBlock)));
-
+    public static final RegistryObject<Item> Whitejade_Block = ITEMS.register("whitejade_block", () -> new BlockItem(BlockRegistry.Whitejade_Block.get(), new Item.Properties().group(ModGroup.GemmodBlock)));
 }

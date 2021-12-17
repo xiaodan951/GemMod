@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " g ",
+    " m ",
+    " g "
+  ],
+  "key": {
+    "g": {
+      "item": "gemmod:obsidian_ingot"
+    },
+    "m": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "gemmod:obsidian_hoe",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gemmod:whitejade_block"
+    }
+  ],
+  "result": {
+    "item": "gemmod:whitejade",
+    "count": 9
+  }
+}

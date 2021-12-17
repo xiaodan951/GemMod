@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " g ",
+    " g ",
+    " m "
+  ],
+  "key": {
+    "g": {
+      "item": "gemmod:topaz"
+    },
+    "m": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "gemmod:topaz_sword",
+    "count": 1
+  }
+}

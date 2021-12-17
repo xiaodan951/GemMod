@@ -1,11 +1,28 @@
 modLoader="javafml"
 loaderVersion="[34,)"
 license="GNU GPLv3"
-[[mods]]
-modId="gemmod"
-version="${file.jarVersion}"
-displayName="Gem Mod"
-authors="FledgeShiu"
+#issueTrackerURL="http://my.issue.tracker/"
+[[mods]] #mandatory
+modId="gemmod" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Gem Mod" #mandatory
+#updateJSONURL="http://myurl.me/" #optional
+#displayURL="http://example.com/" #optional
+logoFile="" #optional
+#credits="Thanks for this example mod goes to Java" #optional
+authors="Love, Cheese and small house plants" #optional
 description='''
-This is gemmod mod.
+abc
 '''
+[[dependencies.gemmod]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[34,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.gemmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.3]"
+    ordering="NONE"
+    side="BOTH"

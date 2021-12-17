@@ -7,13 +7,13 @@ import net.xiaodan951.gemmod.item.ItemRegistry;
 
 import java.util.function.Supplier;
 
-public enum ModItemTier implements IItemTier
+public enum GemmodItemTier implements IItemTier
 {
 
     OBSIDIAN(3, 3000, 10.0F, 3.0F, 30, () ->{
         return Ingredient.fromItems(ItemRegistry.Obsidian_Ingot.get());
     }),
-    WHITEJADE(4, 3500, 14.0F, 4.0F, 35, () -> {
+    WHITEJADE(5, 3500, 14.0F, 4.0F, 35, () -> {
         return Ingredient.fromItems(ItemRegistry.Whitejade.get());
     }),
     TOPAZ(4,3250, 12.0F, 3.5F, 32, () -> {
@@ -28,7 +28,7 @@ public enum ModItemTier implements IItemTier
     private final int enchantability;
     private final LazyValue<Ingredient> repairMaterial;
 
-    ModItemTier(int harvestLevelIn, int maxUsesIn, float efficiencyIn, float attackDamageIn, int enchantabilityIn, Supplier<Ingredient> repairMaterialIn) {
+    GemmodItemTier(int harvestLevelIn, int maxUsesIn, float efficiencyIn, float attackDamageIn, int enchantabilityIn, Supplier<Ingredient> repairMaterialIn) {
         this.harvestLevel = harvestLevelIn;
         this.maxUses = maxUsesIn;
         this.efficiency = efficiencyIn;

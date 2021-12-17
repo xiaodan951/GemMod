@@ -13,4 +13,5 @@ public class BlockRegistry
 
     public static final RegistryObject<Block> Obsidian_Block = BLOCKS.register("obsidian_block", Obsidian_Block::new);
     public static final RegistryObject<Block> Topaz_Block = BLOCKS.register("topaz_block", Topaz_Block::new);
+    public static final RegistryObject<Block> Whitejade_Block = BLOCKS.register("whitejade_block", Whitejade_Block::new);
 }
