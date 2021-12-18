@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "gemmod:item/obsidian_hoe"
+    "layer0": "gemmod:tool/obsidian_hoe"
   }
 }

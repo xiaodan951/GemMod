@@ -18,6 +18,7 @@ public class Gemmod {
         net.xiaodan951.gemmod.item.weapons.ItemRegistry.ITEMS.register(eventBus);
         net.xiaodan951.gemmod.block.ItemRegistry.ITEMS.register(eventBus);
         net.xiaodan951.gemmod.item.tools.ItemRegistry.ITEMS.register(eventBus);
+        net.xiaodan951.gemmod.item.armor.ItemRegistry.ITEMS.register(eventBus);
 
         BlockRegistry.BLOCKS.register(eventBus);
 
