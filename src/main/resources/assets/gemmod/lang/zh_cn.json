@@ -6,6 +6,7 @@
   "item.gemmod.whitejade_apple": "白玉苹果",
   "item.gemmod.obsidian_apple": "黑曜石苹果",
   "item.gemmod.topaz_apple": "黄玉苹果",
+  "item.gemmod.poison_apple": "§1苹果",
 
   "item.gemmod.whitejade_sword": "白玉剑",
   "item.gemmod.obsidian_sword": "黑曜石剑",
@@ -13,6 +14,7 @@
 
   "block.gemmod.obsidian_block": "黑曜石块",
   "block.gemmod.topaz_block": "黄玉块",
+  "block.gemmod.whitejade_block": "白玉块",
 
   "itemGroup.gemmod_item": "宝石模组:物品",
   "itemGroup.gemmod_food": "宝石模组:食物",

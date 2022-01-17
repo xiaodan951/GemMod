@@ -6,6 +6,7 @@
   "item.gemmod.whitejade_apple": "WhiteJade Apple",
   "item.gemmod.obsidian_apple": "Obsidian Apple",
   "item.gemmod.topaz_apple": "Topaz Apple",
+  "item.gemmod.poison_apple": "Poison Apple",
 
   "item.gemmod.whitejade_sword": "Whitejade Sword",
   "item.gemmod.obsidian_sword": "Obsidian Sword",
@@ -13,6 +14,7 @@
 
   "block.gemmod.obsidian_block": "Obsidian Block",
   "block.gemmod.topaz_block": "Topaz Block",
+  "block.gemmod.whitejade_block": "Whitejade Block",
 
   "itemGroup.gemmod_item": "Gemmod Item",
   "itemGroup.gemmod_food": "Gemmod Food",
